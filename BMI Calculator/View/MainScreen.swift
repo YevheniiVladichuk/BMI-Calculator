@@ -52,15 +52,15 @@ class MainScreen: UIView {
     
     let heightValue: UILabel = {
         let heightValue = UILabel()
-        heightValue.text = "3"
+        heightValue.text = "1.5m"
         heightValue.textAlignment = .right
         return heightValue
     }()
     
     let heightSlider: UISlider = {
         let heightSlider = UISlider()
-        heightSlider.minimumValue = 0
-        heightSlider.maximumValue = 3
+        heightSlider.minimumValue = 0.0
+        heightSlider.maximumValue = 3.0
         heightSlider.value = heightSlider.maximumValue/2
         heightSlider.tintColor = .black
         heightSlider.thumbTintColor = .black
@@ -85,15 +85,15 @@ class MainScreen: UIView {
     
     let weightValue: UILabel = {
         let weightValue = UILabel()
-        weightValue.text = "80"
+        weightValue.text = "100kg"
         weightValue.textAlignment = .right
         return weightValue
     }()
     
     let weightSlider: UISlider = {
         let weightSlider = UISlider()
-        weightSlider.minimumValue = 0
-        weightSlider.maximumValue = 130
+        weightSlider.minimumValue = 0.0
+        weightSlider.maximumValue = 200.0
         weightSlider.value = weightSlider.maximumValue/2
         weightSlider.tintColor = .black
         weightSlider.thumbTintColor = .black

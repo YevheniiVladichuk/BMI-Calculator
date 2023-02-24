@@ -15,6 +15,8 @@
 		4D1E1CA529A7E20300586D55 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E1CA429A7E20300586D55 /* MainScreen.swift */; };
 		4D1E1CA929A82B4200586D55 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E1CA829A82B4200586D55 /* ResultViewController.swift */; };
 		4D1E1CAB29A82B9900586D55 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E1CAA29A82B9900586D55 /* ResultScreen.swift */; };
+		4D24E83529A89E3C00C4EAC2 /* CalculatorBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24E83429A89E3C00C4EAC2 /* CalculatorBMI.swift */; };
+		4D24E83729A8AE5600C4EAC2 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24E83629A8AE5600C4EAC2 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		4D1E1CA429A7E20300586D55 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		4D1E1CA829A82B4200586D55 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		4D1E1CAA29A82B9900586D55 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
+		4D24E83429A89E3C00C4EAC2 /* CalculatorBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBMI.swift; sourceTree = "<group>"; };
+		4D24E83629A8AE5600C4EAC2 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		4D1E1CA129A7E17900586D55 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4D24E83429A89E3C00C4EAC2 /* CalculatorBMI.swift */,
+				4D24E83629A8AE5600C4EAC2 /* BMI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +184,8 @@
 				4D1E1CA929A82B4200586D55 /* ResultViewController.swift in Sources */,
 				4D1E1CA529A7E20300586D55 /* MainScreen.swift in Sources */,
 				4D1E1C8929A7CACB00586D55 /* ViewController.swift in Sources */,
+				4D24E83529A89E3C00C4EAC2 /* CalculatorBMI.swift in Sources */,
+				4D24E83729A8AE5600C4EAC2 /* BMI.swift in Sources */,
 				4D1E1C8529A7CACB00586D55 /* AppDelegate.swift in Sources */,
 				4D1E1CAB29A82B9900586D55 /* ResultScreen.swift in Sources */,
 				4D1E1C8729A7CACB00586D55 /* SceneDelegate.swift in Sources */,
