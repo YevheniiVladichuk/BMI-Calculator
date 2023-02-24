@@ -32,7 +32,6 @@ class MainScreen: UIView {
         mainLabel.numberOfLines = 0
         mainLabel.text = "CALCULATE YOUR BMI"
         mainLabel.font = UIFont.boldSystemFont(ofSize: 44)
-        mainLabel.translatesAutoresizingMaskIntoConstraints = false
         return mainLabel
     }()
     
@@ -48,7 +47,6 @@ class MainScreen: UIView {
         let heightLabel = UILabel()
         heightLabel.text = "Height"
         heightLabel.textAlignment = .left
-        heightLabel.translatesAutoresizingMaskIntoConstraints = false
         return heightLabel
     }()
     
@@ -56,7 +54,6 @@ class MainScreen: UIView {
         let heightValue = UILabel()
         heightValue.text = "3"
         heightValue.textAlignment = .right
-        heightValue.translatesAutoresizingMaskIntoConstraints = false
         return heightValue
     }()
     
@@ -83,7 +80,6 @@ class MainScreen: UIView {
         let weightLabel = UILabel()
         weightLabel.text = "Weight"
         weightLabel.textAlignment = .left
-        weightLabel.translatesAutoresizingMaskIntoConstraints = false
         return weightLabel
     }()
     
@@ -91,7 +87,6 @@ class MainScreen: UIView {
         let weightValue = UILabel()
         weightValue.text = "80"
         weightValue.textAlignment = .right
-        weightValue.translatesAutoresizingMaskIntoConstraints = false
         return weightValue
     }()
     

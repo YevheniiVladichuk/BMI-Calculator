@@ -24,7 +24,11 @@ class ViewController: UIViewController {
     }
     
     @objc func buttonTapped() {
-        print("Button tapped")
+        let resultVC = ResultViewController()
+        resultVC.backgroundColor = .systemGreen
+        resultVC.result = "20"
+        resultVC.advice = "EAT MORE"
+        present(resultVC, animated: true, completion: nil)
     }
     
 }
